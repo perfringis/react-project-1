@@ -1,0 +1,18 @@
+.button-arrow-left {
+  width: 3rem;
+  height: 3rem;
+
+  background-color: $whisper;
+  display: flex;
+  border: none;
+  border-radius: 30%;
+  text-decoration: none;
+  cursor: pointer;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.button-arrow-left:focus {
+  outline: 0;
+}
