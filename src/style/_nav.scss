@@ -13,13 +13,11 @@
   margin: auto;
   padding: 0;
 
-  border: 1px solid red;
 
   width: 100%;
 }
 
 .nav ul li {
-  border: 1px solid pink;
 
   height: 60px;
 
@@ -35,5 +33,22 @@
 }
 
 .nav ul .gap {
-  height: 285px;
+  height: 260px;
+}
+
+.nav ul .avatar {
+  height: 85px;
+}
+
+.image {
+  width: 32px;
+  height: 32px;
+
+  margin: auto;
+
+  border-radius: 100%;
+}
+
+.nav ul .add-user {
+  height: 95px;
 }
