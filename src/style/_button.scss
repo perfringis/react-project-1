@@ -1,0 +1,30 @@
+.button {
+  // height: 80px;
+  // width: 376px;
+
+  height: 5rem;
+  width: 23.5rem;
+
+  background-color: $azure-radiance;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+
+  border-radius: 25px;
+
+  display: flex;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button p {
+  margin: auto;
+  font-size: 1.5rem;
+}

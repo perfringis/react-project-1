@@ -1,0 +1,54 @@
+.nav {
+  border: 1px solid green;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 93px;
+}
+
+.nav ul {
+  list-style-type: none;
+
+  margin: auto;
+  padding: 0;
+
+
+  width: 100%;
+}
+
+.nav ul li {
+
+  height: 60px;
+
+  display: flex;
+}
+
+.nav ul li a {
+  margin: auto;
+}
+
+.nav ul .logo {
+  height: 100px;
+}
+
+.nav ul .gap {
+  height: 260px;
+}
+
+.nav ul .avatar {
+  height: 85px;
+}
+
+.image {
+  width: 32px;
+  height: 32px;
+
+  margin: auto;
+
+  border-radius: 100%;
+}
+
+.nav ul .add-user {
+  height: 95px;
+}
