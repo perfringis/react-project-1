@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+
+  height: 102px;
+}
+
+.header ul {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+
+  // default boostrap setup
+  padding-inline-start: 0;
+}
+
+.header ul li {
+  font-size: 14px;
+}
+
+.circle {
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-color: $whisper;
+}
+
+.circle2 {
+  background-color: $whisper;
+
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+}
+
+.profile-avatar img {
+  width: 48px;
+  height: 48px;
+
+  margin: auto;
+
+  border-radius: 100%;
+
+  position: relative;
+}
+
+.add-circle {
+  width: 27px;
+  height: 27px;
+
+  margin: auto;
+
+  border-radius: 100%;
+
+  background-color: $white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute; 
+
+  right: 670px; 
+  // left: 30px;
+  top: 60px;
+}
+
+.add-circle-nested {
+  width: 18px;
+  height: 18px;
+
+  margin: auto;
+
+  border-radius: 100%;
+
+  background-color: $cape-honey;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

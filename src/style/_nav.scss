@@ -1,8 +1,10 @@
 .nav {
-  border: 1px solid green;
+  // border: 1px solid green;
 
   display: flex;
   flex-direction: column;
+
+  float: left;
 
   width: 93px;
 }
@@ -13,12 +15,10 @@
   margin: auto;
   padding: 0;
 
-
   width: 100%;
 }
 
 .nav ul li {
-
   height: 60px;
 
   display: flex;
@@ -29,7 +29,9 @@
 }
 
 .nav ul .logo {
-  height: 100px;
+  height: 102px;
+
+  // border: 1px solid blue;
 }
 
 .nav ul .gap {
