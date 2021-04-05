@@ -7,39 +7,25 @@
   float: left;
 
   width: 93px;
-}
 
-.nav ul {
-  list-style-type: none;
+  ul {
+    list-style-type: none;
 
-  margin: auto;
-  padding: 0;
+    margin: auto;
+    padding: 0;
 
-  width: 100%;
-}
+    width: 100%;
 
-.nav ul li {
-  height: 60px;
+    li {
+      height: 60px;
 
-  display: flex;
-}
+      display: flex;
 
-.nav ul li a {
-  margin: auto;
-}
-
-.nav ul .logo {
-  height: 102px;
-
-  // border: 1px solid blue;
-}
-
-.nav ul .gap {
-  height: 260px;
-}
-
-.nav ul .avatar {
-  height: 85px;
+      a {
+        margin: auto;
+      }
+    }
+  }
 }
 
 .image {
@@ -49,8 +35,4 @@
   margin: auto;
 
   border-radius: 100%;
-}
-
-.nav ul .add-user {
-  height: 95px;
 }
