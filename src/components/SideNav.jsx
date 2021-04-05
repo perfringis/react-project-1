@@ -12,6 +12,8 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-regular-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
 
 import image1 from '../assets/images/face1.jpeg';
 import image2 from '../assets/images/face2.jpeg';
@@ -72,72 +74,96 @@ const SideNav = () => {
         </nav>
       </div>
       <div className='main'>
-        <header className='header'>
-          <ul>
-            <li style={{ width: 95 }}></li>
-            <li>
-              <div className='company-logo'></div>
-            </li>
-            <li style={{ width: 14 }}></li>
-            <li>Bank of America</li>
-            <li style={{ width: 40 }}></li>
-            <li>
-              <div className='circle'>
-                <a href='#'>
-                  <FontAwesomeIcon icon={faChartLine} size='lg' />
-                </a>
-              </div>
-            </li>
-            <li style={{ width: 22 }}></li>
-            <li style={{ fontSize: 14 }}>
-              <b>+3,08%</b>
-            </li>
-            <li style={{ width: 234 }}></li>
-            <li>
-              <div>
-                <a href='#'>
-                  <FontAwesomeIcon icon={faSearch} size='lg' />
-                </a>
-              </div>
-            </li>
-            <li style={{ width: 263 }}></li>
-            <li>
-              <div>
-                <a href='#'>
-                  <FontAwesomeIcon icon={faMoon} size='lg' />
-                </a>
-              </div>
-            </li>
-            <li style={{ width: 43 }}></li>
-            <li>
-              <div>
-                <a href='#'>
-                  <FontAwesomeIcon icon={faBell} size='lg' />
-                </a>
-              </div>
-            </li>
-            <li style={{ width: 69 }}></li>
-            <li>
-              <div className='profile-avatar'>
-                <img src={image3} alt='Logo' />
-
-                <div className='add-circle'>
-                  <div className='add-circle-nested'>+</div>
+        <div className='main-column'>
+          <header className='header'>
+            <ul>
+              <li style={{ width: 95 }}></li>
+              <li>
+                <div className='company-logo'></div>
+              </li>
+              <li style={{ width: 14 }}></li>
+              <li>Bank of America</li>
+              <li style={{ width: 40 }}></li>
+              <li>
+                <div className='circle'>
+                  <a href='#'>
+                    <FontAwesomeIcon icon={faChartLine} size='lg' />
+                  </a>
                 </div>
-              </div>
-            </li>
-            <li style={{ width: 31 }}></li>
-            <li>
-              <div>
-                <a href='#'>
-                  <FontAwesomeIcon icon={faAngleDown} size='lg' />
-                </a>
-              </div>
-            </li>
-            <li style={{ width: 122 }}></li>
-          </ul>
-        </header>
-        <div className='sidenav'></div>
+              </li>
+              <li style={{ width: 22 }}></li>
+              <li style={{ fontSize: 14 }}>
+                <b>+3,08%</b>
+              </li>
+              <li style={{ width: 234 }}></li>
+              <li>
+                <div>
+                  <a href='#'>
+                    <FontAwesomeIcon icon={faSearch} size='lg' />
+                  </a>
+                </div>
+              </li>
+              <li style={{ width: 263 }}></li>
+              <li>
+                <div>
+                  <a href='#'>
+                    <FontAwesomeIcon icon={faMoon} size='lg' />
+                  </a>
+                </div>
+              </li>
+              <li style={{ width: 43 }}></li>
+              <li>
+                <div>
+                  <a href='#'>
+                    <FontAwesomeIcon icon={faBell} size='lg' />
+                  </a>
+                </div>
+              </li>
+              <li style={{ width: 69 }}></li>
+              <li>
+                <div className='profile-avatar'>
+                  <img src={image3} alt='Logo' />
+
+                  <div className='add-circle'>
+                    <div className='add-circle-nested'>+</div>
+                  </div>
+                </div>
+              </li>
+              <li style={{ width: 31 }}></li>
+              <li>
+                <div>
+                  <a href='#'>
+                    <FontAwesomeIcon icon={faAngleDown} size='lg' />
+                  </a>
+                </div>
+              </li>
+              <li style={{ width: 122 }}></li>
+            </ul>
+          </header>
+            <div className="line"></div>
+          <div className='content'>
+          </div>
+        </div>
+
+        <div className='sidenav'>
+          <div className='navigate'>
+            <div style={{ width: 38 }}></div>
+            <div className='left-arrow'>
+              <FontAwesomeIcon icon={faArrowLeft} size='lg' />
+            </div>
+            <div style={{ width: 212 }}></div>
+            <div className='blue-circle'>
+              <div className='plus-sign'>+</div>
+            </div>
+            <div style={{ width: 40 }}></div>
+            <div>
+              <a href='#'>
+                <FontAwesomeIcon icon={faEllipsisH} size='lg' />
+              </a>
+            </div>
+            <div style={{ width: 40 }}></div>
+          </div>
+        </div>
       </div>
     </div>
   );
