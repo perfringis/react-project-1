@@ -1,6 +1,8 @@
 .nav {
   // border: 1px solid green;
 
+  border-right: solid 1px $whisper;
+
   display: flex;
   flex-direction: column;
 

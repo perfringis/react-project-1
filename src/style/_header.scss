@@ -100,6 +100,7 @@
 
 .sidenav {
   // border: solid 1px gray;
+  border-left: solid 1px $whisper;
 
   width: 100%;
   height: 1012px;
@@ -157,6 +158,32 @@
   height: 100%;
 
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nested-content {
+  border: solid 1px chartreuse;
+
+  width: 1111px;
+  height: 100%;
+
+  display: flex;
+}
+
+.nested-content-left {
+  border: solid 1px red;
+
+  height: 100%;
+  width: 625px;
+}
+
+.nested-content-right {
+  border: solid 1px green;
+
+  height: 100%;
+  width: 375px;
 }
 
 .main-column {
@@ -171,5 +198,5 @@
   border: solid 1px $whisper;
 
   height: 0px;
-  width: 1123px;
+  width: 1111px;
 }

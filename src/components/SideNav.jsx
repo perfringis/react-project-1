@@ -140,8 +140,13 @@ const SideNav = () => {
               <li style={{ width: 122 }}></li>
             </ul>
           </header>
-            <div className="line"></div>
+          <div className='line'></div>
           <div className='content'>
+            <div className='nested-content'>
+              <div className='nested-content-left'></div>
+              <div style={{ width: 111 }}></div>
+              <div className='nested-content-right'></div>
+            </div>
           </div>
         </div>
 
