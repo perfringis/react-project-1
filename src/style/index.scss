@@ -20,3 +20,41 @@ $colonial-white: #feeeb9;
 $white: #ffffff;
 
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.main {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100%;
+
+  border: 1px solid red;
+}
+
+.left-navbar {
+  width: 90px;
+  height: 100%;
+
+  border: 1px solid green;
+}
+
+.left-navbar-border {
+  width: 1px;
+  height: 100%;
+
+  border: 1px solid blue;
+}
+
+.main-panel {
+  width: 1300px;
+  height: 100%;
+
+  border: 1px solid burlywood;
+}
+
+.right-navbar {
+  width: 491px;
+  height: 100%;
+
+  border: 1px solid gray;
+}
