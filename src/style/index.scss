@@ -32,6 +32,13 @@ $white: #ffffff;
 }
 
 .left-navbar {
+  display: flex;
+
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  // align-content: center;
+
   width: 90px;
   height: 100%;
 
@@ -57,4 +64,35 @@ $white: #ffffff;
   height: 100%;
 
   border: 1px solid gray;
+}
+
+.logo-attachment {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // align-content: center;
+
+  padding: 2rem 0;
+
+  width: 100%;
+}
+
+.right-navbar-menu {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 2rem;
+
+  padding: 2.5rem 0;
+
+  width: 100%;
+}
+
+.menu-icon {
+  padding: 1rem 0;
 }
