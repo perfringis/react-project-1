@@ -8,6 +8,8 @@ import { faComment } from '@fortawesome/free-regular-svg-icons';
 import { faLevelUpAlt } from '@fortawesome/free-solid-svg-icons';
 import { faBolt } from '@fortawesome/free-solid-svg-icons';
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
+import { faLocationArrow } from '@fortawesome/free-solid-svg-icons';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 import Face1 from '../assets/images/face1.jpeg';
 import Face2 from '../assets/images/face2.jpeg';
@@ -50,7 +52,21 @@ const Dashboard = () => {
       </div>
 
       <div className='left-navbar-border'></div>
-      <div className='main-panel'></div>
+      <div className='main-panel'>
+        <div className='nested-main-panel'>
+          <div className='main-navbar'>
+            <div className='bank-logo'></div>
+            <div className='bank-title'>Bank of America</div>
+            <div className='raise-action'>
+              <FontAwesomeIcon icon={faLocationArrow} size='sm' />
+            </div>
+            <div className='percentage-income'>+3,08%</div>
+            <div className='loop-icon'>
+              <FontAwesomeIcon icon={faSearch} size='sm' />
+            </div>
+          </div>
+        </div>
+      </div>
       <div className='right-navbar'></div>
     </div>
   );
